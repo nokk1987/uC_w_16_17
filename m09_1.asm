@@ -9,7 +9,6 @@ write_text   equ 8100h
              ljmp start
 		     org 100h
 start:
-             mov r0, #lcdwc
 			 mov a, #1
 			 lcall write_code
 			 
